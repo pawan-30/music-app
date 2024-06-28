@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Music - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/apple.png">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Images/apple.png" alt="Apple Music"> Apple Music</li>
+            <li><b>Karan Aujla Special</b></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="Cover/fouryou.jpg" alt="1">
+                    <span>52 BARS</span>
+                    <span class="songlistplay"><span class="timestamp">03:41 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/mm.jpg" alt="2">
+                    <span>Admirin You</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/mm.jpg" alt="3">
+                    <span>Champion's Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">03:24 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/fouryou.jpg" alt="4">
+                    <span>Fallin Apart</span>
+                    <span class="songlistplay"><span class="timestamp">03:18 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/etr.jpg" alt="5">
+                    <span>God Damn</span>
+                    <span class="songlistplay"><span class="timestamp">02:47 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/gf.jpg" alt="6">
+                    <span>Goin Off</span>
+                    <span class="songlistplay"><span class="timestamp">02:42 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/sd.jpg" alt="7">
+                    <span>Nothing Lasts</span>
+                    <span class="songlistplay"><span class="timestamp">02:56 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/mm.jpg" alt="8">
+                    <span>Softly</span>
+                    <span class="songlistplay"><span class="timestamp">02:35 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/sd.jpg" alt="9">
+                    <span>Top Class/Overseas</span>
+                    <span class="songlistplay"><span class="timestamp">04:48 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/ws.jpg" alt="10">
+                    <span>Winning Speech</span>
+                    <span class="songlistplay"><span class="timestamp">03:57 <i
+                                class="fa songItemPlay fa-sharp fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-random" id="shuffle"></i> <!-- Shuffle Button -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+            <i class="fas fa-3x fa-redo-alt" id="loop"></i> <!-- Loop Button -->
+        </div>
+        <div class="songInfo">
+            <span id="masterSongName">52 BARS</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
